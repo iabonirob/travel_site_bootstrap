@@ -119,8 +119,6 @@
 </section>
 
 <section class="container-fluid p-5 bg-white">
-
-</section>
       <!-- Our table with a class of table so Bootstrap controls how it is styled and a class of table-bordered so our table has borders -->
       <table class="table table-bordered">
         <tbody>
@@ -162,11 +160,35 @@
             </tr>
         </tbody>
     </table>
-
-
-
-
+  </section>
 </main>
+
+<!-- footer to group together elements related to the footer of our site, in this case, the Navbar -->
+<footer>
+  <!-- Bootstrap Navbar with updated classes (navbar-dark, bg-dark) from the example to give us a dark themed Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <!-- Our copyright information used as our navbar-brand -->
+      <a class="navbar-brand" href="#">© Travel is fun</a>
+
+
+      <!-- this is the unordered list that makes up the navigation for the site. Notice the navbar-nav class. -->
+      <!-- in addition to navbar-nav we have added the ml-auto class to that the navigation links appear on the right side of the navigation -->
+      <ul class="navbar-nav ml-auto">
+
+          <!-- Each <li> represents a navigation item and has the nav-item class attached. -->
+          <li class="nav-item">
+              <!-- actual navigation link with the nav-link class attached -->
+              <a class="nav-link" href="#">Facebook</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Twitter</a>
+          </li>
+      </ul>
+  </nav>
+</footer>
+
+
     <!-- Bootstrap JavaScript files (bundle) -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
